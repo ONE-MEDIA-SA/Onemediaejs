@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 3000
 const ejs = require('ejs')
-const routes = require('./routes/inde.js')
+const routes = require('./routes/index.js')
 
 
 // setup view engine 
