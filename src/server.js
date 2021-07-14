@@ -10,6 +10,7 @@ app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.set('view engine', 'html')
+app.engine('html', ejs.renderFile)
 app.use(routes)
 
 app.listen(PORT, () => {

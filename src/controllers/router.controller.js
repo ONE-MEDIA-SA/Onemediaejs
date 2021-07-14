@@ -1,5 +1,5 @@
 const home = async(req, res) => {
-    res.send("Holla")
+    res.render('pages/index')
 }
 
 module.exports = {
