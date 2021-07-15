@@ -1039,7 +1039,12 @@ Services Style
   margin: 0 auto;
 }
 
+.our-services a {
+  color: inherit;
+}
+
 .our-services .item p {
+  text-decoration: none;
   margin-top: 35px;
   padding-top: 30px;
   border-top: 1px solid #eee;
