@@ -75,6 +75,20 @@ const services = [
     },
     {
         id: 6,
-        name: 'Aluguer de Equipamento'
+        name: 'Aluguer de Equipamento',
+        description: `Construção de stands personalizados e aluguer de equipamento para feiras
+        (audiovisual, tendas e stands modulares)`,
+        img: '',
+        form: [
+            'Seu nome',
+            'Seu email',
+            "Seu contacto",
+            "Qual é o tipo do evento?",
+            "Que equipamento voce precisa?"
+        ]
     }
 ]
+
+module.exports = {
+    services
+}
